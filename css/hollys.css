@@ -1,0 +1,123 @@
+
+/*메인화면*/
+#main {
+    width: 1500px;
+    height: 600px;
+    background: #f8f6e7 url(../images/main_bg.png) no-repeat 800px center;
+    margin: 0 auto;
+}
+
+#main p.txt1 {
+    background: #c8a87f;
+    display: inline-block;
+    padding: 5px 30px;
+
+    margin-top: 180px;
+    margin-left: 190px;
+
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#main h2 {
+    padding: 20px 0 0 190px;
+
+    color: #333;
+    font-size: 34px;
+    letter-spacing: -3px;
+}
+
+#main h2 span {
+    color: #c43b45;
+    font-size: 66px;
+    letter-spacing: -6px;
+}
+
+#main p.txt2 {
+    padding: 10px 0 0 190px;
+
+    color: #333;
+    font-size: 18px;
+    letter-spacing: -3px;
+}
+
+#main p.txt2 b {
+    letter-spacing: 2px;
+}
+
+/*배너2종*/
+#banner {
+    width: 1500px;
+    height: 190px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#banner ul li {
+    width: 580px;
+    height: 190px;
+    background: cyan;
+
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+
+    margin: 0 10px;
+}
+
+#banner ul li p {
+    padding: 40px 0 0 20px;
+
+    color: #871016;
+    font-size: 14px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#banner ul li h2 {
+    padding: 10px 0 0 20px;
+
+    color: #fff;
+    font-size: 32px;
+    letter-spacing: -3px;
+}
+
+#banner ul li h4 {
+    padding: 10px 0 0 20px;
+
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-weight: normal;
+}
+
+#banner ul li:nth-child(1) {
+    background: url(../images/banner_bg1.jpg);
+}
+
+#banner ul li:nth-child(2) {
+    background: url(../images/banner_bg2.jpg);
+}
+
+/*sns영역*/
+#sns {
+    width: 1500px;
+    height: 150px;
+    margin: 0px auto;
+}
+
+#sns p.line {
+    width: 1170px;
+    height: 2px;
+    background: #b6121b;
+
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 160px;
+}
+
+#sns h2 {
+    padding: 40px 0 0 160px;
+}
+
